@@ -15,6 +15,7 @@ app.on('ready', function () {
 		, slashes: true
 	}));
 
+	//registro global https://electronjs.org/docs/api/global-shortcut
 	globalShortcut.register('CommandOrControl+Shift+T', () => {
 		console.log('CommandOrControl+Shift+T is pressed');
 		//https://stackoverflow.com/a/36973252
